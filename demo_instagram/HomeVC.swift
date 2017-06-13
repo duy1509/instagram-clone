@@ -25,6 +25,7 @@ class HomeVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "HomeVC"
         ProgressHUD.show("Waiting...!")
         layData()
         loadData()
